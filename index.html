@@ -4,8 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RockIt</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
+    <style>
+        body {
+    background-color: black;
+}
+
+.title h1 {
+    text-align: center;
+    color: white;
+}
+
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+.images button {
+    border: 10px solid white;
+    background: transparent;
+    border: none;
+
+    transition: transform 0.4s;
+
+
+}
+.images button:hover {
+    transform: translateY(-10px);
+}
+
+.results .result {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+
+.moves {
+    display: flex;
+    gap: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.moves img {
+    width: 100px;
+}
+
+.moves .playerMove .text1 {
+    color: white;
+}
+.moves .compMove .text2 {
+    color: white;
+}
+.score {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}
+
+.score h2 {
+    color: white;
+}
+
+.reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reset button {
+    border: 10px solid white;
+    background: transparent;
+    border: none;
+}
+
+.reset img {
+    
+    width: 150px;
+    transition: transform 0.4s ease;
+
+}
+
+.reset img:hover {
+    transform: translateY(-5px);
+}
+
+    </style>
 <body>
 <div>
     <div class="title">
